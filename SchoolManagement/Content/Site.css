@@ -1,0 +1,78 @@
+﻿body {
+    padding:0;
+    margin:0;
+    width:100%;
+    min-height:100%;
+    overflow-x:hidden;
+}
+
+h1 {
+    text-align: center;
+    color: grey;
+    font-size: 3em;
+    font-weight:bold;
+    padding-top: 50px;
+    font-family: 'Bree Serif', serif;
+}
+
+#page_wrapper{
+    margin-top:0;
+    padding:0;
+}
+
+#technologies_wrapper {
+    min-height: 1800px;
+    background-color: #007fff;
+    background: url('resources/monument_valley.jpg');
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#content_wrapper{
+    min-height:1800px;
+    background-color:whitesmoke;
+    padding:0;
+    margin:0;
+}
+
+.description {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    color: silver;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#index_btn {
+    background-color: darkgrey;
+    border: solid 3px white;
+    border-radius: 6px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    padding: 8px;
+    color: white;
+    width: 200px;
+    min-height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: all ease-in-out .8s;
+}
+
+    #index_btn:hover {
+        cursor: pointer;
+        color: darkgrey;
+        border-color: darkgrey;
+        background: whitesmoke;
+    }
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
