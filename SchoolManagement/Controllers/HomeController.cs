@@ -16,6 +16,15 @@ namespace SchoolManagement.Controllers
             return View();
         }
 
+        [Route("WelcomePage")]
+        [HttpGet]
+        public ActionResult WelcomePage()
+        {
+            ViewBag.Message = "Your application welcome page.";
+
+            return View();
+        }
+
         [Route("About")]
         [HttpGet]
         public ActionResult About()
