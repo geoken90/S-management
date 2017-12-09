@@ -9,7 +9,7 @@ namespace SchoolManagement.Controllers
     [RoutePrefix("Home")]
     public class HomeController : Controller
     {
-        [Route("~/")]
+        //[Route("~/")]
         [HttpGet]
         public ActionResult Index()
         {
